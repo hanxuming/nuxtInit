@@ -5,14 +5,15 @@
 </template>
 
 <script>
-
-
+import { Tests } from '../assets/service/getData.js';
 export default {
   components: {
     
   },
   mounted () {
-    
+      Tests().then(res => {
+        console.log(JSON.stringify(res));
+      })
   }
 }
 </script>
