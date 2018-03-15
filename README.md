@@ -1,6 +1,10 @@
 # nuxtinit
 
-> Nuxt.js project
+> 集成插件：
+> 1、jquery,bootstrap,reset
+> 2、axios
+> 3、less
+>
 
 ## Build Setup
 
